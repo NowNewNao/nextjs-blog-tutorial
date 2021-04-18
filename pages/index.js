@@ -30,7 +30,7 @@ export default function Home({allPostsData}) {
               <br />
               {id}
               <br />
-              {date}
+              <Date dateString={date} />
             </li>
           ))}
         </ul>
